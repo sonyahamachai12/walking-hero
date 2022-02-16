@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="~Fs,JP#[;oE$@N`+*3_[">Player</variable><variable type="KIND_SpriteKind" id="82I!wdb{G.MfxtB3umaH">Projectile</variable><variable type="KIND_SpriteKind" id="y*15vGt2Nm6H.(f)|zRP">Food</variable><variable type="KIND_SpriteKind" id="hx2!4?@??JwKMOn=z!=|">Enemy</variable><variable id="zBMX+.OG2[Bg|6kr*Yg7">mySprite</variable><variable id="p(.hxKk{^[Mq*S,POF7=">item</variable></variables><block type="pxt-on-start" id="{ZR/!rDegTf{(XE3F97z" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="(!icwdmK-nk#K{+,J8?s"><field name="VAR" id="zBMX+.OG2[Bg|6kr*Yg7">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="goiD4GGSOjXNf~^},:G0"><value name="img"><shadow type="screen_image_picker" id="=n}$,i/dliFq9Vat):b@"><field name="img">img`
+. . 4 4 4 . . . . 4 4 4 . . . . 
+. 4 5 5 5 e . . e 5 5 5 4 . . . 
+4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
+4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
+e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
+. e e 5 5 5 5 5 5 5 5 e e . . . 
+. . e 5 f 5 5 5 5 f 5 e . . . . 
+. . f 5 5 5 4 4 5 5 5 f . . f f 
+. . f 4 5 5 f f 5 5 6 f . f 5 f 
+. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
+. . . f 4 5 5 5 5 5 5 4 4 5 f . 
+. . . f 5 5 5 5 5 4 5 5 f f . . 
+. . . f 5 f f f 5 f f 5 f . . . 
+. . . f f . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"=n}$,i/dliFq9Vat):b@"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="{!/zF=jbG5]}7ho4lE+!"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="M`WvG:6XQOpp5/;NZ~gK"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="e=tsW$?ep%-u:]}]h.JH"><field name="VAR" id="zBMX+.OG2[Bg|6kr*Yg7">mySprite</field></block></value></block></next></block></statement></block></xml>
